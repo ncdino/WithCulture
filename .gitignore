@@ -9,6 +9,9 @@ dist/
 web-build/
 expo-env.d.ts
 
+/android
+/ios
+
 # Native
 *.orig.*
 *.jks
@@ -31,8 +34,18 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
 
 app-example
+# dotenv
+# Firebase
+
+.supabase
+
+withculture-bac1d-firebase-adminsdk-fbsvc-cf6cb4f2cd.json
+google-services.json
+eas.json
+.assets

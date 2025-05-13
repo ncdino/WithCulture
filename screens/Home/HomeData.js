@@ -1,0 +1,211 @@
+export const featuredEvents = [
+  {
+    id: "1",
+    title: '뮤지컬 "레미제라블" 내한공연',
+    image:
+      "https://cdn.imweb.me/upload/S202303202661dcbb4dbed/ae05558857710.png",
+    date: "2025.04.15 - 2025.05.20",
+    venue: "세종문화회관",
+  },
+  {
+    id: "2",
+    title: "모네: 빛을 그리다",
+    image:
+      "https://i0.wp.com/blog.rightbrain.co.kr/wp-content/uploads/2017/12/mone.jpg?fit=1279%2C579&ssl=1",
+    date: "2025.03.01 - 2025.06.30",
+    venue: "국립현대미술관",
+  },
+  {
+    id: "3",
+    title: '국립발레단 "지젤"',
+    image:
+      "https://www.korean-national-ballet.kr/upload/performance/gallery/1112/eca780eca0a420476973656c6c6520e293924b4f5245414e204e4154494f4e414c2042414c4c45542070686f746f2062792042414b692031202d20ebb3b5ec82acebb3b8.jpg?v=u0P99Ze",
+    date: "2025.04.10 - 2025.04.12",
+    venue: "예술의전당",
+  },
+];
+
+export const categories = [
+  {
+    id: "1",
+    name: "연극",
+    icon: require("../../assets/genre/performance.png"),
+    genre: "AAAA",
+  },
+  {
+    id: "BBBC",
+    name: "무용",
+    icon: require("../../assets/genre/dance.png"),
+    genre: "BBBC",
+  },
+  {
+    id: "2",
+    name: "대중무용",
+    icon: require("../../assets/genre/dae-dance.png"),
+    genre: "BBBE",
+  },
+  {
+    id: "3",
+    name: "서양음악(클래식)",
+    icon: require("../../assets/genre/classic.png"),
+    genre: "CCCA",
+  },
+  {
+    id: "4",
+    name: "한국음악(국악)",
+    icon: require("../../assets/genre/korean.png"),
+    genre: "CCCC",
+  },
+  {
+    id: "5",
+    name: "대중음악",
+    icon: require("../../assets/genre/dae-music.png"),
+    genre: "CCCD",
+  },
+  {
+    id: "6",
+    name: "복합",
+    icon: require("../../assets/genre/composite.png"),
+    genre: "EEEA",
+  },
+  {
+    id: "7",
+    name: "서커스/마술",
+    icon: require("../../assets/genre/circus.png"),
+    genre: "EEEB",
+  },
+  {
+    id: "8",
+    name: "뮤지컬",
+    icon: require("../../assets/genre/musical.png"),
+    genre: "GGGA",
+  },
+  {
+    id: "10",
+    name: "전시",
+    icon: require("../../assets/genre/exhibition.png"),
+    genre: "10",
+  },
+];
+
+export const areas = [
+  {
+    id: "0",
+    area: "서울",
+    icon: null,
+    code: "11",
+    iconImage: require("../../assets/image/areaiconImage/seoul.webp"),
+  },
+  {
+    id: "1",
+    area: "부산",
+    icon: null,
+    code: "26",
+    iconImage: require("../../assets/image/areaiconImage/busan.webp"),
+  },
+  {
+    id: "2",
+    area: "대구",
+    icon: null,
+    code: "27",
+    iconImage: require("../../assets/image/areaiconImage/daegu.webp"),
+  },
+  {
+    id: "3",
+    area: "인천",
+    icon: null,
+    code: "28",
+    iconImage: require("../../assets/image/areaiconImage/daegu.webp"),
+  },
+  {
+    id: "4",
+    area: "광주",
+    icon: null,
+    code: "29",
+    iconImage: require("../../assets/image/areaiconImage/gwangju.webp"),
+  },
+  {
+    id: "5",
+    area: "대전",
+    icon: null,
+    code: "30",
+    iconImage: require("../../assets/image/areaiconImage/daejeon.webp"),
+  },
+  {
+    id: "6",
+    area: "울산",
+    icon: null,
+    code: "31",
+    iconImage: require("../../assets/image/areaiconImage/ulsan.webp"),
+  },
+  {
+    id: "7",
+    area: "세종",
+    icon: null,
+    code: "36",
+    iconImage: require("../../assets/image/areaiconImage/sejong.webp"),
+  },
+  {
+    id: "8",
+    area: "경기",
+    icon: null,
+    code: "41",
+    iconImage: require("../../assets/image/areaiconImage/kyeongki.webp"),
+  },
+  {
+    id: "9",
+    area: "강원",
+    icon: null,
+    code: "51",
+    iconImage: require("../../assets/image/areaiconImage/daegu.webp"),
+  },
+  {
+    id: "10",
+    area: "충북",
+    icon: null,
+    code: "43",
+    iconImage: require("../../assets/image/areaiconImage/chungbuk.webp"),
+  },
+  {
+    id: "11",
+    area: "충남",
+    icon: null,
+    code: "44",
+    iconImage: require("../../assets/image/areaiconImage/chungnam.webp"),
+  },
+  {
+    id: "12",
+    area: "전북",
+    icon: null,
+    code: "45",
+    iconImage: require("../../assets/image/areaiconImage/jeonbuk.webp"),
+  },
+  {
+    id: "13",
+    area: "전남",
+    icon: null,
+    code: "46",
+    iconImage: require("../../assets/image/areaiconImage/jeonnam.webp"),
+  },
+  {
+    id: "14",
+    area: "경북",
+    icon: null,
+    code: "47",
+    iconImage: require("../../assets/image/areaiconImage/daegu.webp"),
+  },
+  {
+    id: "15",
+    area: "경남",
+    icon: null,
+    code: "48",
+    iconImage: require("../../assets/image/areaiconImage/daegu.webp"),
+  },
+  {
+    id: "16",
+    area: "제주",
+    icon: null,
+    code: "50",
+    iconImage: require("../../assets/image/areaiconImage/jeju.webp"),
+  },
+];

@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "withculture",
+    "name": "WithCulture",
     "slug": "withculture",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "platforms": ["ios", "android", "web"],
     "ios": {
       "supportsTablet": true
     },
@@ -15,27 +16,58 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.lewji.withculture"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "config": {
+        "google": {
+          "cliendId": "1011551821618-cuickop1rr79jibvr7pt1oth22qo7v65.apps.googleusercontent.com"
+        }
+      }
     },
     "plugins": [
-      "expo-router",
+      ["expo-router"],
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
+          "width": "100%",
+          "height": "100%",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-localization",
+      "expo-build-properties",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/splash-icon.png",
+          "color": "#ffffff"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "google": {
+        "androidClientId": "1011551821618-mpmc1ai2b1je8co8ulm1l30t8eoofk26.apps.googleusercontent.com",
+        "webClientId": "1011551821618-705msvt020eve4btjgd36esima7ggs2c.apps.googleusercontent.com"
+      },
+      "eas": {
+        "projectId": "a32c1b31-43e6-41b7-a484-4c860e33c148"
+      }
+    },
+    "owner": "lewji"
   }
 }
